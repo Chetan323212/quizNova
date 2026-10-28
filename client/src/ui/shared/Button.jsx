@@ -39,7 +39,7 @@ export default function Button({
   return (
     <button
       type={type}
-      className={`btn ${variantClasses[variant]} ${sizeClasses[size]} ${className}`}
+      className={'bg-[#615FF0] text-white h-auto text-2xl font-medium  px-6 py-4 rounded-3xl hover:bg-[#504EE0] transition-colors duration-200'}
       disabled={disabled || isLoading}
       onClick={onClick}
       {...rest}
